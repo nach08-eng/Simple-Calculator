@@ -48,6 +48,8 @@ button{
     border-radius: 50px;
     border: none;
     background-color: rgb(68, 76, 76);
+    box-shadow: inset 3px 5px 8px hsl(0, 1%, 36%),
+                inset -3px -5px 8px hsl(0, 1%, 20%);
     color:aliceblue;
     font-size: 3rem;
     font-weight: bold;
@@ -55,19 +57,29 @@ button{
 }  
 button:hover{
     background-color: hsl(0, 0%,40%);
+    box-shadow: inset 3px 5px 8px hsl(0, 1%, 36%),
+                inset -3px -5px 8px hsl(0, 1%, 20%);
 }
 button:active{
     background-color: hsl(0, 0%,50%);
+    box-shadow: inset 3px 5px 8px hsl(44, 90%, 72%),
+                inset -3px -5px 8px hsl(44, 86%, 36%);
 }
 .operator-btn{
     background-color: hsl(44, 83%, 49%);  
     border-radius: 40px;
+    box-shadow: inset 3px 5px 8px hsl(44, 90%, 72%),
+                inset -3px -5px 8px hsl(44, 86%, 36%);
 }
 .operator-btn:hover{
-    background-color: hsl(44, 83%, 65%);  
+    background-color: hsl(44, 83%, 65%); 
+    box-shadow: inset 3px 5px 8px hsl(44, 90%, 72%),
+                inset -3px -5px 8px hsl(44, 86%, 36%);
 }
 .operator-btn:active{
-    background-color: hsl(44, 83%,  75%);  
+    background-color: hsl(44, 83%,  75%); 
+    box-shadow: inset 3px 5px 8px hsl(44, 90%, 72%),
+                inset -3px -5px 8px hsl(44, 86%, 36%);
 }
 .operate-btn{
     background-color: hsl(44, 83%, 49%);  
@@ -82,11 +94,16 @@ button:active{
     cursor: pointer;
 }
 .operate-btn:hover{
-    background-color: hsl(44, 83%, 77%);  
+    background-color: hsl(44, 83%, 77%);
+    box-shadow: inset 3px 5px 8px hsl(44, 90%, 72%),
+                inset -3px -5px 8px hsl(44, 80%, 35%);
 }
 .operate-btn:active{
-    background-color: hsl(44, 83%,  75%);  
+    background-color: hsl(44, 83%,  75%); 
+    box-shadow: inset 3px 5px 8px hsl(44, 90%, 72%),
+                inset -3px -5px 8px hsl(44, 80%, 35%);
 }
+
 
 
 
